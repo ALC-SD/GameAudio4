@@ -1696,6 +1696,45 @@
 								<Property Name="Voice2Pitch" Type="Real32" Value="-1200"/>
 								<Property Name="WindowSize" Type="int32" Value="256"/>
 							</PropertyList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{C92CA698-6404-4138-BDBC-744AAF53C657}" ShortID="284575111">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="WetLevel"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Altitude" ID="{CFBFCC66-4D27-41D4-A6AC-E917FAA2FCF4}" WorkUnitID="{A47B99BC-AE2C-4B85-8A52-E4F2FEF9CBC6}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{05AC53B5-607A-41B0-BCDC-4E5207C37B10}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-120</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>4</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 						</Effect>
 						<Effect Name="Secret_message_Distant" ID="{54C3F2D2-6B8D-4873-A383-2F6F7189C076}" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3">
 							<PropertyList>
