@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{22C0BBC6-4382-43A3-AD5C-02CAF8A44EF4}" SchemaVersion="110">
+	<SoundcasterSessions>
+		<WorkUnit Name="Skate" ID="{22C0BBC6-4382-43A3-AD5C-02CAF8A44EF4}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Skate_Test" ID="{44E0A4AA-0C36-4738-A94B-B9E4E2B3A2AA}">
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Altitude" ID="{CFBFCC66-4D27-41D4-A6AC-E917FAA2FCF4}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Hill_Grade" ID="{56EF29D6-F834-4572-B2C3-965E37E9CAD5}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Carve_Angle" ID="{1B810F17-F793-48CE-B942-DB26D0DD30C7}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

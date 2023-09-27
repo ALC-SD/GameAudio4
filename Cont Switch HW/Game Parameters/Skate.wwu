@@ -3,7 +3,40 @@
 	<GameParameters>
 		<WorkUnit Name="Skate" ID="{A47B99BC-AE2C-4B85-8A52-E4F2FEF9CBC6}" PersistMode="Standalone">
 			<ChildrenList>
-				<GameParameter Name="Skate_Speed" ID="{35204B87-69C0-4F42-BD2B-C5943DE8D027}"/>
+				<GameParameter Name="Skate_Speed" ID="{35204B87-69C0-4F42-BD2B-C5943DE8D027}">
+					<PropertyList>
+						<Property Name="FilterTimeDown" Type="Real64" Value="0.7"/>
+						<Property Name="FilterTimeUp" Type="Real64" Value="0.7"/>
+						<Property Name="InitialValue" Type="Real64" Value="0.5"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Hill_Grade" ID="{56EF29D6-F834-4572-B2C3-965E37E9CAD5}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="5"/>
+						<Property Name="Min" Type="Real64" Value="-5"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="5"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="5"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Carve_Angle" ID="{1B810F17-F793-48CE-B942-DB26D0DD30C7}">
+					<PropertyList>
+						<Property Name="FilterTimeDown" Type="Real64" Value="0.2"/>
+						<Property Name="FilterTimeUp" Type="Real64" Value="0.2"/>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="2"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Altitude" ID="{CFBFCC66-4D27-41D4-A6AC-E917FAA2FCF4}">
+					<PropertyList>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="35"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

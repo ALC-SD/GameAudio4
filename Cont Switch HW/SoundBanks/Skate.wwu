@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FA7B2629-E1EA-4C19-B2F9-2487F9E7E3A9}" SchemaVersion="110">
+	<SoundBanks>
+		<WorkUnit Name="Skate" ID="{FA7B2629-E1EA-4C19-B2F9-2487F9E7E3A9}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Skate" ID="{5E074B9D-5505-4536-9064-E38BACE5AAB0}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

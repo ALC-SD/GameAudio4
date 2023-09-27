@@ -18,6 +18,31 @@
 						<Switch Name="Slow" ID="{480C925B-61D4-40C7-84F9-802F61E4EDFA}"/>
 						<Switch Name="Fast" ID="{36280896-B96B-4719-B1DE-1E3C00556690}"/>
 					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Skate_Speed" ID="{35204B87-69C0-4F42-BD2B-C5943DE8D027}"/>
+						<Curve Name="" ID="{3EE78A45-20A3-4069-9CEE-EA6DAA412295}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>0</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>0.999</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>1</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
 				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
