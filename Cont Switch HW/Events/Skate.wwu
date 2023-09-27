@@ -3,8 +3,219 @@
 	<Events>
 		<WorkUnit Name="Skate" ID="{152FC916-5728-41B4-A79B-9FCDB0D54609}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Movement_Start" ID="{336591C3-7C75-4A39-8406-179FDF65567E}"/>
-				<Event Name="Movement_Stop" ID="{EF20E41F-0580-4D40-B37E-C51664852E0A}"/>
+				<Event Name="Movement_Start" ID="{336591C3-7C75-4A39-8406-179FDF65567E}">
+					<ChildrenList>
+						<Action Name="" ID="{5D6C7964-9AA2-45DC-BCCE-C258A61AC1E2}" ShortID="314845774">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ground_Materials" ID="{D9C4C6B7-2602-4244-8857-DF9FE87CB2DE}" WorkUnitID="{9013A983-EB7E-4092-8615-D32ADFB5BA7A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Movement_Stop" ID="{EF20E41F-0580-4D40-B37E-C51664852E0A}">
+					<ChildrenList>
+						<Action Name="" ID="{3A1DE73F-169B-40BB-962F-1026561C6C48}" ShortID="858382495">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ground_Materials" ID="{D9C4C6B7-2602-4244-8857-DF9FE87CB2DE}" WorkUnitID="{9013A983-EB7E-4092-8615-D32ADFB5BA7A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CB45EF72-33BE-4016-8DB7-16C467A671FB}" ShortID="731505606">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SkatePowerslide" ID="{D8F4F04F-CFD0-4619-88E4-92C80CB0DC13}" WorkUnitID="{9013A983-EB7E-4092-8615-D32ADFB5BA7A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Land" ID="{A1E50124-33D2-457B-A0C7-C31A8F6CA07F}">
+					<ChildrenList>
+						<Action Name="" ID="{2BCD6E97-A95C-4941-B65B-07E5BD50BCCB}" ShortID="282298278">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wheels_In_Air" ID="{D2C895A4-FD78-4D13-9F3D-BD49A3FEEB66}" WorkUnitID="{9013A983-EB7E-4092-8615-D32ADFB5BA7A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F7D3C9D7-53C6-41A1-91E7-E6B6EB1C0EB8}" ShortID="68899229">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Air_LP" ID="{1A0F8896-883F-4CD9-86BD-BA0C92799A11}" WorkUnitID="{9013A983-EB7E-4092-8615-D32ADFB5BA7A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C206BD7F-8897-4E19-A2CE-5DAA1ECE784C}" ShortID="494710143">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="39"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Altitude" ID="{CFBFCC66-4D27-41D4-A6AC-E917FAA2FCF4}" WorkUnitID="{A47B99BC-AE2C-4B85-8A52-E4F2FEF9CBC6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7CC12649-F4B6-4D97-8758-F751E6F43EB1}" ShortID="588831060">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Land" ID="{093BA1E5-F892-47D1-982E-11C53ED67B99}" WorkUnitID="{9013A983-EB7E-4092-8615-D32ADFB5BA7A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0F1391A1-09DB-40D3-9B3E-E41A1645B48A}" ShortID="537010319">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ground_Materials" ID="{D9C4C6B7-2602-4244-8857-DF9FE87CB2DE}" WorkUnitID="{9013A983-EB7E-4092-8615-D32ADFB5BA7A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ollie" ID="{EC6FAF2C-99F5-42B9-A475-CCCBEBA6A1F7}">
+					<ChildrenList>
+						<Action Name="" ID="{C025B72B-0C1B-47D5-85C3-D4C12DAC1FCC}" ShortID="299246127">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ground_Materials" ID="{D9C4C6B7-2602-4244-8857-DF9FE87CB2DE}" WorkUnitID="{9013A983-EB7E-4092-8615-D32ADFB5BA7A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9670101D-458D-4479-8403-FAD1DBC0725E}" ShortID="434918704">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="100"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Altitude" ID="{CFBFCC66-4D27-41D4-A6AC-E917FAA2FCF4}" WorkUnitID="{A47B99BC-AE2C-4B85-8A52-E4F2FEF9CBC6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{45EAB535-F41F-4A29-9221-CE17D748D73E}" ShortID="679574091">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wheels_In_Air" ID="{D2C895A4-FD78-4D13-9F3D-BD49A3FEEB66}" WorkUnitID="{9013A983-EB7E-4092-8615-D32ADFB5BA7A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{AC524A0B-DBD3-4C53-BAEB-18F4D429314E}" ShortID="161458113">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.3"/>
+								<Property Name="FadeInCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Air_LP" ID="{1A0F8896-883F-4CD9-86BD-BA0C92799A11}" WorkUnitID="{9013A983-EB7E-4092-8615-D32ADFB5BA7A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B9D7B76C-2647-496E-9642-361BC736974F}" ShortID="479812539">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ollie" ID="{79DBC496-E90E-46A0-902A-D22E5CE02598}" WorkUnitID="{9013A983-EB7E-4092-8615-D32ADFB5BA7A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Railslide_Start" ID="{BB36FE3D-DF42-44C1-B8D7-A4070C7DB921}">
+					<ChildrenList>
+						<Action Name="" ID="{C3C7CDCE-BA2C-4D7D-8DA1-5B12FDD38B9B}" ShortID="528994821">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Air_LP" ID="{1A0F8896-883F-4CD9-86BD-BA0C92799A11}" WorkUnitID="{9013A983-EB7E-4092-8615-D32ADFB5BA7A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B8884C86-5E98-4ED4-A466-4B1CAD34DD0E}" ShortID="249235421">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wheels_In_Air" ID="{D2C895A4-FD78-4D13-9F3D-BD49A3FEEB66}" WorkUnitID="{9013A983-EB7E-4092-8615-D32ADFB5BA7A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7D44ADE7-53CA-4D71-A871-698D11A39AD4}" ShortID="47416761">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rail" ID="{4A37CAEB-2A34-4008-A2F3-25558FA1DD9B}" WorkUnitID="{402611A8-EC40-4D7E-B611-0E13E7CF73E6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E4EDF620-C798-423E-A0F5-138F88F61549}" ShortID="4495395">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rail_Land" ID="{2652C968-424D-4FDB-BA3F-9F6E2505DAAE}" WorkUnitID="{9013A983-EB7E-4092-8615-D32ADFB5BA7A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B7294B5E-6D40-4D81-B6B7-15E41D215C05}" ShortID="158281597">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ground_Materials" ID="{D9C4C6B7-2602-4244-8857-DF9FE87CB2DE}" WorkUnitID="{9013A983-EB7E-4092-8615-D32ADFB5BA7A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Railslide_Stop" ID="{B3E84FE6-256D-40A0-916B-B77000C907BF}">
+					<ChildrenList>
+						<Action Name="" ID="{E20B2328-B8DD-4AD6-8EF7-C5163A449873}" ShortID="365256463">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ground_Materials" ID="{D9C4C6B7-2602-4244-8857-DF9FE87CB2DE}" WorkUnitID="{9013A983-EB7E-4092-8615-D32ADFB5BA7A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FC388074-65F5-4AF6-AD4F-674F4DC536AF}" ShortID="189701220">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Rail_Off" ID="{CE6D1B75-C23B-4CDB-A962-E6CC1C6F5831}" WorkUnitID="{9013A983-EB7E-4092-8615-D32ADFB5BA7A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

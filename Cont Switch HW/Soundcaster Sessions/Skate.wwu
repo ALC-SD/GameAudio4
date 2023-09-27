@@ -11,15 +11,22 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Hill_Grade" ID="{56EF29D6-F834-4572-B2C3-965E37E9CAD5}"/>
-							<Value>0</Value>
+							<Value>0.2</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Carve_Angle" ID="{1B810F17-F793-48CE-B942-DB26D0DD30C7}"/>
-							<Value>0</Value>
+							<Value>0.88</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Skate_Speed" ID="{35204B87-69C0-4F42-BD2B-C5943DE8D027}"/>
+							<Value>1</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true"/>
-					<CurrentSwitchList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Slow" ID="{480C925B-61D4-40C7-84F9-802F61E4EDFA}"/>
+						<CurrentSwitchRef Name="Rail" ID="{4A37CAEB-2A34-4008-A2F3-25558FA1DD9B}"/>
+					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
