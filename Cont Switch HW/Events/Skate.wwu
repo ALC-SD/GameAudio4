@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{152FC916-5728-41B4-A79B-9FCDB0D54609}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Skate" ID="{152FC916-5728-41B4-A79B-9FCDB0D54609}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Movement_Start" ID="{336591C3-7C75-4A39-8406-179FDF65567E}"/>
+				<Event Name="Movement_Stop" ID="{EF20E41F-0580-4D40-B37E-C51664852E0A}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

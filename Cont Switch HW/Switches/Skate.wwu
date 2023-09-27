@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{402611A8-EC40-4D7E-B611-0E13E7CF73E6}" SchemaVersion="110">
+	<Switches>
+		<WorkUnit Name="Skate" ID="{402611A8-EC40-4D7E-B611-0E13E7CF73E6}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Surface_Materials" ID="{9BE4E3F9-7F83-4E51-ACD8-9FCACDFFDDF5}">
+					<ChildrenList>
+						<Switch Name="Cobblestone" ID="{EB2BB614-9337-4F1C-B725-C15EE7F53A84}"/>
+						<Switch Name="Pavement" ID="{C4C83F91-1404-4C6C-AE2A-79FD85207921}"/>
+						<Switch Name="Rail" ID="{4A37CAEB-2A34-4008-A2F3-25558FA1DD9B}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Skate_Speed" ID="{AA1E2ABE-FCFB-4CD0-8C1A-9492E6D6C7A5}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Slow" ID="{480C925B-61D4-40C7-84F9-802F61E4EDFA}"/>
+						<Switch Name="Fast" ID="{36280896-B96B-4719-B1DE-1E3C00556690}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

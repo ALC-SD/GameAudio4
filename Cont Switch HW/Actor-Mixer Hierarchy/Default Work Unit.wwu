@@ -1,6 +1,517 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{F6877485-5777-4D18-B07D-E1C303FEC9FA}" SchemaVersion="110">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{F6877485-5777-4D18-B07D-E1C303FEC9FA}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{F6877485-5777-4D18-B07D-E1C303FEC9FA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Skateboard" ID="{86950A25-4E83-4EF2-A613-E5B6FDE26643}" ShortID="1045644236">
+					<ChildrenList>
+						<Folder Name="Land" ID="{B2058406-5EAA-4F77-B59A-16A6C125B99A}" ShortID="744382808">
+							<ChildrenList>
+								<Sound Name="Skateboard_Land_01" ID="{EB6CC0A4-09FD-4D37-A13F-D9A4AF4A6B5E}" ShortID="124110864">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skateboard_Land_01" ID="{E979C6C3-C6C2-47F1-84FB-CE9637CEF9CE}">
+											<Language>SFX</Language>
+											<AudioFile>Skateboard\Land\Skateboard_Land_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="988351719"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Skateboard_Land_01" ID="{E979C6C3-C6C2-47F1-84FB-CE9637CEF9CE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Skateboard_Land_02" ID="{35CAE6B8-8E6A-4D0D-A11E-47814A3113D5}" ShortID="83758489">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skateboard_Land_02" ID="{975A0865-54B6-4A32-AB46-40711BE49406}">
+											<Language>SFX</Language>
+											<AudioFile>Skateboard\Land\Skateboard_Land_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="498489361"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Skateboard_Land_02" ID="{975A0865-54B6-4A32-AB46-40711BE49406}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Skateboard_Land_03" ID="{B0C79218-9F21-4305-A8FB-F068B2AC4E23}" ShortID="144663068">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skateboard_Land_03" ID="{5E7737E3-E3AD-4320-8BF0-78D069B98279}">
+											<Language>SFX</Language>
+											<AudioFile>Skateboard\Land\Skateboard_Land_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="366888732"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Skateboard_Land_03" ID="{5E7737E3-E3AD-4320-8BF0-78D069B98279}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Ollie" ID="{4D0CF8CE-C38F-4BFC-B109-6F99720BD5CD}" ShortID="940096153">
+							<ChildrenList>
+								<Sound Name="Skateboard_Ollie_01" ID="{F496746A-2B16-45DE-BA7B-4427131241D4}" ShortID="43451104">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skateboard_Ollie_01" ID="{79B3E5E1-43EC-45B3-92F9-01A2AC5CF2DF}">
+											<Language>SFX</Language>
+											<AudioFile>Skateboard\Ollie\Skateboard_Ollie_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="994842812"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Skateboard_Ollie_01" ID="{79B3E5E1-43EC-45B3-92F9-01A2AC5CF2DF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Skateboard_Ollie_02" ID="{7507944E-A27E-4298-9C40-F1B18616D75E}" ShortID="75171801">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skateboard_Ollie_02" ID="{0099A9DD-0E61-4D3F-ACDC-0866C34AC662}">
+											<Language>SFX</Language>
+											<AudioFile>Skateboard\Ollie\Skateboard_Ollie_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="954547728"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Skateboard_Ollie_02" ID="{0099A9DD-0E61-4D3F-ACDC-0866C34AC662}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Skateboard_Ollie_03" ID="{3FED5147-E0AD-441C-9ADA-3E36CF79B732}" ShortID="250380559">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skateboard_Ollie_03" ID="{7AEB2D4F-EE20-43B0-9538-CC40F1E5EF4A}">
+											<Language>SFX</Language>
+											<AudioFile>Skateboard\Ollie\Skateboard_Ollie_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="389300196"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Skateboard_Ollie_03" ID="{7AEB2D4F-EE20-43B0-9538-CC40F1E5EF4A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Other" ID="{A8AA02FE-8743-432D-9B93-65F68B535BAC}" ShortID="814604224">
+							<ChildrenList>
+								<Sound Name="BigAirWind_Loop" ID="{0A71AE33-D1B5-49B1-8800-42883124C069}" ShortID="196657284">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BigAirWind_Loop" ID="{17F39820-14EF-4374-8609-CD00EBD0F518}">
+											<Language>SFX</Language>
+											<AudioFile>Skateboard\Other\BigAirWind_Loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="66893504"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BigAirWind_Loop" ID="{17F39820-14EF-4374-8609-CD00EBD0F518}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rail_Grind_Loop_Fast" ID="{E7975894-6109-4755-B7E3-B3F2C9287AF9}" ShortID="186024404">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rail_Grind_Loop_Fast" ID="{69B8B0F7-2AF4-4FDB-AB79-713423B143F3}">
+											<Language>SFX</Language>
+											<AudioFile>Skateboard\Other\Rail_Grind_Loop_Fast.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="865845159"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rail_Grind_Loop_Fast" ID="{69B8B0F7-2AF4-4FDB-AB79-713423B143F3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rail_Grind_Loop_Slow" ID="{710F9796-8D0E-401C-B068-0DEB23DC108F}" ShortID="287091531">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rail_Grind_Loop_Slow" ID="{3A59AD31-2AC5-481B-987D-1620A17D8F2A}">
+											<Language>SFX</Language>
+											<AudioFile>Skateboard\Other\Rail_Grind_Loop_Slow.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="996235562"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rail_Grind_Loop_Slow" ID="{3A59AD31-2AC5-481B-987D-1620A17D8F2A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SB_Ride_Cobble_Lp_Fast" ID="{3A487649-2E59-4E75-B9F9-F3055AD23C06}" ShortID="38531378">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SB_Ride_Cobble_Lp_Fast" ID="{2BE3DDC6-8821-41BA-AA47-1A04AA8360E7}">
+											<Language>SFX</Language>
+											<AudioFile>Skateboard\Other\SB_Ride_Cobble_Lp_Fast.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="845533776"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SB_Ride_Cobble_Lp_Fast" ID="{2BE3DDC6-8821-41BA-AA47-1A04AA8360E7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SB_Ride_Cobble_Lp_Slow" ID="{6B2385E7-1260-4103-9E6B-5EBF45EDC4E8}" ShortID="531319116">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SB_Ride_Cobble_Lp_Slow" ID="{242E9B5D-BE8F-48A7-9CA7-3B034B05044B}">
+											<Language>SFX</Language>
+											<AudioFile>Skateboard\Other\SB_Ride_Cobble_Lp_Slow.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="647572816"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SB_Ride_Cobble_Lp_Slow" ID="{242E9B5D-BE8F-48A7-9CA7-3B034B05044B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SB_Ride_Pavement_Lp_Fast" ID="{B7DDD5A8-4AA6-4197-A47F-D4625E617DF8}" ShortID="753166956">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SB_Ride_Pavement_Lp_Fast" ID="{2FBF791F-107C-4612-B835-BC32AC8D9C86}">
+											<Language>SFX</Language>
+											<AudioFile>Skateboard\Other\SB_Ride_Pavement_Lp_Fast.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="226057090"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SB_Ride_Pavement_Lp_Fast" ID="{2FBF791F-107C-4612-B835-BC32AC8D9C86}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SB_Ride_Pavement_Lp_Slow" ID="{558D15D2-EA09-4201-91D2-858871390285}" ShortID="171298758">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SB_Ride_Pavement_Lp_Slow" ID="{5457DC6C-2BD4-4A7B-817C-48597BCA379A}">
+											<Language>SFX</Language>
+											<AudioFile>Skateboard\Other\SB_Ride_Pavement_Lp_Slow.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="733409035"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SB_Ride_Pavement_Lp_Slow" ID="{5457DC6C-2BD4-4A7B-817C-48597BCA379A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Skateboard_carve" ID="{58DEF9AF-67ED-4424-B054-329370477862}" ShortID="93697076">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skateboard_carve" ID="{912B74C2-D3F0-44A9-92A5-7CB75CD0D169}">
+											<Language>SFX</Language>
+											<AudioFile>Skateboard\Other\Skateboard_carve.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="22132874"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Skateboard_carve" ID="{912B74C2-D3F0-44A9-92A5-7CB75CD0D169}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Skateboard_PowerSlide" ID="{769B7C20-91F2-4727-B619-A89E658D5055}" ShortID="221892256">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skateboard_PowerSlide" ID="{EC832274-3558-4EB8-A89E-4555ABE2CF04}">
+											<Language>SFX</Language>
+											<AudioFile>Skateboard\Other\Skateboard_PowerSlide.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="155088307"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Skateboard_PowerSlide" ID="{EC832274-3558-4EB8-A89E-4555ABE2CF04}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Wheels_In_Air" ID="{D1E94199-C35A-4200-9D10-CF5361B8F3BB}" ShortID="330593229">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wheels_In_Air" ID="{9119F647-5A28-4618-9755-BEEA5EE3E711}">
+											<Language>SFX</Language>
+											<AudioFile>Skateboard\Other\Wheels_In_Air.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="213364434"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Wheels_In_Air" ID="{9119F647-5A28-4618-9755-BEEA5EE3E711}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Rail_Land" ID="{1F8C6287-F96E-46CC-B22D-D73ACD5E361F}" ShortID="1070010877">
+							<ChildrenList>
+								<Sound Name="Rail_Land_01" ID="{EDCF1846-9960-418C-8246-B84942CF8B0B}" ShortID="649903953">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rail_Land_01" ID="{34631610-8366-4548-B77E-6823CF4D7F7F}">
+											<Language>SFX</Language>
+											<AudioFile>Skateboard\Rail_Land\Rail_Land_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="442958152"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rail_Land_01" ID="{34631610-8366-4548-B77E-6823CF4D7F7F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rail_Land_02" ID="{B5B6C5BC-9B12-448D-9415-DDA3759BA6CE}" ShortID="487248168">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rail_Land_02" ID="{4F5F81F0-2A42-43CC-9DA2-1067ECEE33C1}">
+											<Language>SFX</Language>
+											<AudioFile>Skateboard\Rail_Land\Rail_Land_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="518881336"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rail_Land_02" ID="{4F5F81F0-2A42-43CC-9DA2-1067ECEE33C1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rail_Land_03" ID="{87B44069-48AD-4227-95B5-51172A18B337}" ShortID="77549854">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rail_Land_03" ID="{5113987B-3CC8-4896-B8D3-CB47A11137AC}">
+											<Language>SFX</Language>
+											<AudioFile>Skateboard\Rail_Land\Rail_Land_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="449818444"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rail_Land_03" ID="{5113987B-3CC8-4896-B8D3-CB47A11137AC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Rail_Off" ID="{9ADF428F-E9B7-4E5F-99F0-4B45FB178181}" ShortID="419972066">
+							<ChildrenList>
+								<Sound Name="Rail_Off_01" ID="{42E00FFE-7555-418E-80FF-278B4C3898AB}" ShortID="298319405">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rail_Off_01" ID="{70FFC9E4-FA26-4488-9B77-F9A6365B4089}">
+											<Language>SFX</Language>
+											<AudioFile>Skateboard\Rail_Off\Rail_Off_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="404232988"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rail_Off_01" ID="{70FFC9E4-FA26-4488-9B77-F9A6365B4089}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rail_Off_02" ID="{0CD76E8E-A499-4D46-9F83-E0B367ADBCCC}" ShortID="349233455">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rail_Off_02" ID="{5A4F3968-0AD6-4D5B-A321-736D0FC302B5}">
+											<Language>SFX</Language>
+											<AudioFile>Skateboard\Rail_Off\Rail_Off_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="980320527"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rail_Off_02" ID="{5A4F3968-0AD6-4D5B-A321-736D0FC302B5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rail_Off_03" ID="{7E7C2C64-0380-4DC7-9590-14CF71DE70B6}" ShortID="641342187">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rail_Off_03" ID="{26ED1809-549E-4261-871B-BEAA3D8EC6F2}">
+											<Language>SFX</Language>
+											<AudioFile>Skateboard\Rail_Off\Rail_Off_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="916993822"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rail_Off_03" ID="{26ED1809-549E-4261-871B-BEAA3D8EC6F2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

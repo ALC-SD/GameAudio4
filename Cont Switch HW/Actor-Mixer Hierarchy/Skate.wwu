@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9013A983-EB7E-4092-8615-D32ADFB5BA7A}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Skate" ID="{9013A983-EB7E-4092-8615-D32ADFB5BA7A}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Skate" ID="{11987742-0D96-47A1-B595-6FB68F985D97}" ShortID="98928865">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SwitchContainer Name="Ground_Materials" ID="{D9C4C6B7-2602-4244-8857-DF9FE87CB2DE}" ShortID="702632574">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SwitchContainer Name="Cobblestone" ID="{8A356793-7673-4D08-9AB8-1EFDFF9BEE05}" ShortID="248808854">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+										</Reference>
+									</ReferenceList>
+									<GroupingInfo/>
+								</SwitchContainer>
+								<BlendContainer Name="Pavement" ID="{A51EAB41-F38E-428E-89E8-E137A40DA57A}" ShortID="144703242">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+										</Reference>
+									</ReferenceList>
+								</BlendContainer>
+								<BlendContainer Name="Rail" ID="{3381FE7B-E1E4-40C8-A914-56C160638647}" ShortID="824487034">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+										</Reference>
+									</ReferenceList>
+								</BlendContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Pavement" ID="{A51EAB41-F38E-428E-89E8-E137A40DA57A}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Rail" ID="{3381FE7B-E1E4-40C8-A914-56C160638647}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Cobblestone" ID="{8A356793-7673-4D08-9AB8-1EFDFF9BEE05}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<RandomSequenceContainer Name="Air_LP" ID="{1A0F8896-883F-4CD9-86BD-BA0C92799A11}" ShortID="382772762">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="SkatePowerslide" ID="{D8F4F04F-CFD0-4619-88E4-92C80CB0DC13}" ShortID="988877543">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Wheels_In_Air" ID="{D2C895A4-FD78-4D13-9F3D-BD49A3FEEB66}" ShortID="392788487">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Land" ID="{093BA1E5-F892-47D1-982E-11C53ED67B99}" ShortID="173291458">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

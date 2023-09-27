@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A47B99BC-AE2C-4B85-8A52-E4F2FEF9CBC6}" SchemaVersion="110">
+	<GameParameters>
+		<WorkUnit Name="Skate" ID="{A47B99BC-AE2C-4B85-8A52-E4F2FEF9CBC6}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Skate_Speed" ID="{35204B87-69C0-4F42-BD2B-C5943DE8D027}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
