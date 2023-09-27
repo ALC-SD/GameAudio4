@@ -13,681 +13,6 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<SwitchContainer Name="Ground_Materials" ID="{D9C4C6B7-2602-4244-8857-DF9FE87CB2DE}" ShortID="702632574">
-							<PropertyList>
-								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
-								</Reference>
-								<Reference Name="DefaultSwitchOrState">
-									<ObjectRef Name="Pavement" ID="{C4C83F91-1404-4C6C-AE2A-79FD85207921}" WorkUnitID="{402611A8-EC40-4D7E-B611-0E13E7CF73E6}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
-								</Reference>
-								<Reference Name="SwitchGroupOrStateGroup">
-									<ObjectRef Name="Surface_Materials" ID="{9BE4E3F9-7F83-4E51-ACD8-9FCACDFFDDF5}" WorkUnitID="{402611A8-EC40-4D7E-B611-0E13E7CF73E6}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<SwitchContainer Name="Cobblestone" ID="{8A356793-7673-4D08-9AB8-1EFDFF9BEE05}" ShortID="248808854">
-									<PropertyList>
-										<Property Name="SwitchBehavior" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
-										</Reference>
-										<Reference Name="DefaultSwitchOrState">
-											<ObjectRef Name="Slow" ID="{480C925B-61D4-40C7-84F9-802F61E4EDFA}" WorkUnitID="{402611A8-EC40-4D7E-B611-0E13E7CF73E6}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
-										</Reference>
-										<Reference Name="SwitchGroupOrStateGroup">
-											<ObjectRef Name="Skate_Speed" ID="{AA1E2ABE-FCFB-4CD0-8C1A-9492E6D6C7A5}" WorkUnitID="{402611A8-EC40-4D7E-B611-0E13E7CF73E6}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="SB_Ride_Cobble_Lp_Fast" ID="{3A487649-2E59-4E75-B9F9-F3055AD23C06}" ShortID="38531378">
-											<PropertyList>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SB_Ride_Cobble_Lp_Fast" ID="{2BE3DDC6-8821-41BA-AA47-1A04AA8360E7}">
-													<Language>SFX</Language>
-													<AudioFile>Skateboard\Other\SB_Ride_Cobble_Lp_Fast.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="845533776"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SB_Ride_Cobble_Lp_Fast" ID="{2BE3DDC6-8821-41BA-AA47-1A04AA8360E7}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SB_Ride_Cobble_Lp_Slow" ID="{6B2385E7-1260-4103-9E6B-5EBF45EDC4E8}" ShortID="531319116">
-											<PropertyList>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SB_Ride_Cobble_Lp_Slow" ID="{242E9B5D-BE8F-48A7-9CA7-3B034B05044B}">
-													<Language>SFX</Language>
-													<AudioFile>Skateboard\Other\SB_Ride_Cobble_Lp_Slow.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="647572816"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="SB_Ride_Cobble_Lp_Slow" ID="{242E9B5D-BE8F-48A7-9CA7-3B034B05044B}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-									<GroupingInfo>
-										<GroupingBehaviorList>
-											<GroupingBehavior>
-												<ItemRef Name="SB_Ride_Cobble_Lp_Fast" ID="{3A487649-2E59-4E75-B9F9-F3055AD23C06}"/>
-												<PropertyList>
-													<Property Name="ContinuePlay" Type="bool" Value="True"/>
-													<Property Name="FadeInTime" Type="Real64">
-														<ValueList>
-															<Value>0.2</Value>
-														</ValueList>
-													</Property>
-												</PropertyList>
-											</GroupingBehavior>
-											<GroupingBehavior>
-												<ItemRef Name="SB_Ride_Cobble_Lp_Slow" ID="{6B2385E7-1260-4103-9E6B-5EBF45EDC4E8}"/>
-												<PropertyList>
-													<Property Name="ContinuePlay" Type="bool" Value="True"/>
-													<Property Name="FadeInTime" Type="Real64">
-														<ValueList>
-															<Value>0.2</Value>
-														</ValueList>
-													</Property>
-												</PropertyList>
-											</GroupingBehavior>
-										</GroupingBehaviorList>
-										<GroupingList>
-											<Grouping>
-												<SwitchRef Name="Slow" ID="{480C925B-61D4-40C7-84F9-802F61E4EDFA}"/>
-												<ItemList>
-													<ItemRef Name="SB_Ride_Cobble_Lp_Slow" ID="{6B2385E7-1260-4103-9E6B-5EBF45EDC4E8}"/>
-												</ItemList>
-											</Grouping>
-											<Grouping>
-												<SwitchRef Name="Fast" ID="{36280896-B96B-4719-B1DE-1E3C00556690}"/>
-												<ItemList>
-													<ItemRef Name="SB_Ride_Cobble_Lp_Fast" ID="{3A487649-2E59-4E75-B9F9-F3055AD23C06}"/>
-												</ItemList>
-											</Grouping>
-										</GroupingList>
-									</GroupingInfo>
-								</SwitchContainer>
-								<BlendContainer Name="Pavement" ID="{A51EAB41-F38E-428E-89E8-E137A40DA57A}" ShortID="144703242">
-									<PropertyList>
-										<Property Name="BlendBehavior" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<BlendContainer Name="Pavement_Fast" ID="{0D159077-8FD9-4D6C-B3B3-F5B11B425FC3}" ShortID="194336206">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="SB_Ride_Pavement_Lp_Fast" ID="{B7DDD5A8-4AA6-4197-A47F-D4625E617DF8}" ShortID="753166956">
-													<PropertyList>
-														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="SB_Ride_Pavement_Lp_Fast" ID="{2FBF791F-107C-4612-B835-BC32AC8D9C86}">
-															<Language>SFX</Language>
-															<AudioFile>Skateboard\Other\SB_Ride_Pavement_Lp_Fast.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="226057090"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="SB_Ride_Pavement_Lp_Fast" ID="{2FBF791F-107C-4612-B835-BC32AC8D9C86}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Skateboard_carve" ID="{F6023432-9EA7-4589-80B2-73418971BAC8}" ShortID="849910384">
-													<PropertyList>
-														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Skateboard_carve" ID="{A6F7B28F-9B05-41BC-9EDF-C618AB73B617}">
-															<Language>SFX</Language>
-															<AudioFile>Skateboard\Other\Skateboard_carve.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="304972135"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Skateboard_carve" ID="{A6F7B28F-9B05-41BC-9EDF-C618AB73B617}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-											<BlendTrackList>
-												<BlendTrack Name="Carve_Angle" ID="{201D4226-8A96-4552-B0BB-7E458BD99A88}" ShortID="320507901">
-													<PropertyList>
-														<Property Name="EnableCrossFading" Type="bool" Value="True"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="LayerCrossFadeControlInput">
-															<ObjectRef Name="Carve_Angle" ID="{1B810F17-F793-48CE-B942-DB26D0DD30C7}" WorkUnitID="{A47B99BC-AE2C-4B85-8A52-E4F2FEF9CBC6}"/>
-														</Reference>
-													</ReferenceList>
-												</BlendTrack>
-											</BlendTrackList>
-										</BlendContainer>
-										<BlendContainer Name="Pavement_Slow" ID="{2202C28E-0260-437B-8B5D-5DD79C5789BA}" ShortID="969013538">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="SB_Ride_Pavement_Lp_Slow" ID="{558D15D2-EA09-4201-91D2-858871390285}" ShortID="171298758">
-													<PropertyList>
-														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="SB_Ride_Pavement_Lp_Slow" ID="{5457DC6C-2BD4-4A7B-817C-48597BCA379A}">
-															<Language>SFX</Language>
-															<AudioFile>Skateboard\Other\SB_Ride_Pavement_Lp_Slow.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="733409035"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="SB_Ride_Pavement_Lp_Slow" ID="{5457DC6C-2BD4-4A7B-817C-48597BCA379A}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="Skateboard_carve" ID="{F4F72BA5-4996-40AC-B53E-2E86CD5C51D6}" ShortID="1002291825">
-													<PropertyList>
-														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Skateboard_carve" ID="{1B832CCA-FBA1-4CC3-A486-E8BFE180D658}">
-															<Language>SFX</Language>
-															<AudioFile>Skateboard\Other\Skateboard_carve.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="304972135"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Skateboard_carve" ID="{1B832CCA-FBA1-4CC3-A486-E8BFE180D658}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-											<BlendTrackList>
-												<BlendTrack Name="Carve_Angle" ID="{1A3128AB-E0CA-47E6-B413-7BCE83988365}" ShortID="791470104">
-													<PropertyList>
-														<Property Name="EnableCrossFading" Type="bool" Value="True"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="LayerCrossFadeControlInput">
-															<ObjectRef Name="Carve_Angle" ID="{1B810F17-F793-48CE-B942-DB26D0DD30C7}" WorkUnitID="{A47B99BC-AE2C-4B85-8A52-E4F2FEF9CBC6}"/>
-														</Reference>
-													</ReferenceList>
-												</BlendTrack>
-											</BlendTrackList>
-										</BlendContainer>
-									</ChildrenList>
-									<BlendTrackList>
-										<BlendTrack Name="Speed" ID="{2BBB2CD9-F34F-4C74-96EE-34C993760ADA}" ShortID="264738169">
-											<PropertyList>
-												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="LayerCrossFadeControlInput">
-													<ObjectRef Name="Skate_Speed" ID="{35204B87-69C0-4F42-BD2B-C5943DE8D027}" WorkUnitID="{A47B99BC-AE2C-4B85-8A52-E4F2FEF9CBC6}"/>
-												</Reference>
-											</ReferenceList>
-										</BlendTrack>
-									</BlendTrackList>
-								</BlendContainer>
-								<BlendContainer Name="Rail" ID="{3381FE7B-E1E4-40C8-A914-56C160638647}" ShortID="824487034">
-									<PropertyList>
-										<Property Name="BlendBehavior" Type="int16" Value="1"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Rail_Grind_Loop_Fast" ID="{E7975894-6109-4755-B7E3-B3F2C9287AF9}" ShortID="186024404">
-											<PropertyList>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Rail_Grind_Loop_Fast" ID="{69B8B0F7-2AF4-4FDB-AB79-713423B143F3}">
-													<Language>SFX</Language>
-													<AudioFile>Skateboard\Other\Rail_Grind_Loop_Fast.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="865845159"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Rail_Grind_Loop_Fast" ID="{69B8B0F7-2AF4-4FDB-AB79-713423B143F3}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Rail_Grind_Loop_Slow" ID="{710F9796-8D0E-401C-B068-0DEB23DC108F}" ShortID="287091531">
-											<PropertyList>
-												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Rail_Grind_Loop_Slow" ID="{3A59AD31-2AC5-481B-987D-1620A17D8F2A}">
-													<Language>SFX</Language>
-													<AudioFile>Skateboard\Other\Rail_Grind_Loop_Slow.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="996235562"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Rail_Grind_Loop_Slow" ID="{3A59AD31-2AC5-481B-987D-1620A17D8F2A}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-									<BlendTrackList>
-										<BlendTrack Name="Rail" ID="{0930318E-4DD6-4E96-87FC-A51970A559EB}" ShortID="216100901">
-											<PropertyList>
-												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="LayerCrossFadeControlInput">
-													<ObjectRef Name="Skate_Speed" ID="{35204B87-69C0-4F42-BD2B-C5943DE8D027}" WorkUnitID="{A47B99BC-AE2C-4B85-8A52-E4F2FEF9CBC6}"/>
-												</Reference>
-											</ReferenceList>
-										</BlendTrack>
-									</BlendTrackList>
-								</BlendContainer>
-							</ChildrenList>
-							<ObjectLists>
-								<ObjectList Name="RTPC">
-									<Reference>
-										<Local>
-											<RTPC Name="" ID="{DCE15B24-E75C-43B2-93C1-EF2EBE54D777}" ShortID="167451708">
-												<PropertyList>
-													<Property Name="PropertyName" Type="string" Value="Pitch"/>
-												</PropertyList>
-												<ReferenceList>
-													<Reference Name="ControlInput">
-														<ObjectRef Name="Hill_Grade" ID="{56EF29D6-F834-4572-B2C3-965E37E9CAD5}" WorkUnitID="{A47B99BC-AE2C-4B85-8A52-E4F2FEF9CBC6}"/>
-													</Reference>
-													<Reference Name="Curve">
-														<Custom>
-															<Curve Name="" ID="{8F49ABD7-2317-4D2A-A800-E9F3CBDA47E5}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="65537"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>-5</XPos>
-																		<YPos>500</YPos>
-																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>5</XPos>
-																		<YPos>-250</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</Custom>
-													</Reference>
-												</ReferenceList>
-											</RTPC>
-										</Local>
-									</Reference>
-								</ObjectList>
-							</ObjectLists>
-							<GroupingInfo>
-								<GroupingBehaviorList>
-									<GroupingBehavior>
-										<ItemRef Name="Pavement" ID="{A51EAB41-F38E-428E-89E8-E137A40DA57A}"/>
-										<PropertyList>
-											<Property Name="ContinuePlay" Type="bool" Value="True"/>
-											<Property Name="FadeInTime" Type="Real64">
-												<ValueList>
-													<Value>0.3</Value>
-												</ValueList>
-											</Property>
-										</PropertyList>
-									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="Rail" ID="{3381FE7B-E1E4-40C8-A914-56C160638647}"/>
-										<PropertyList>
-											<Property Name="ContinuePlay" Type="bool" Value="True"/>
-										</PropertyList>
-									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="Cobblestone" ID="{8A356793-7673-4D08-9AB8-1EFDFF9BEE05}"/>
-										<PropertyList>
-											<Property Name="ContinuePlay" Type="bool" Value="True"/>
-											<Property Name="FadeInTime" Type="Real64">
-												<ValueList>
-													<Value>0.3</Value>
-												</ValueList>
-											</Property>
-										</PropertyList>
-									</GroupingBehavior>
-								</GroupingBehaviorList>
-								<GroupingList>
-									<Grouping>
-										<SwitchRef Name="Cobblestone" ID="{EB2BB614-9337-4F1C-B725-C15EE7F53A84}"/>
-										<ItemList>
-											<ItemRef Name="Cobblestone" ID="{8A356793-7673-4D08-9AB8-1EFDFF9BEE05}"/>
-										</ItemList>
-									</Grouping>
-									<Grouping>
-										<SwitchRef Name="Pavement" ID="{C4C83F91-1404-4C6C-AE2A-79FD85207921}"/>
-										<ItemList>
-											<ItemRef Name="Pavement" ID="{A51EAB41-F38E-428E-89E8-E137A40DA57A}"/>
-										</ItemList>
-									</Grouping>
-									<Grouping>
-										<SwitchRef Name="Rail" ID="{4A37CAEB-2A34-4008-A2F3-25558FA1DD9B}"/>
-										<ItemList>
-											<ItemRef Name="Rail" ID="{3381FE7B-E1E4-40C8-A914-56C160638647}"/>
-										</ItemList>
-									</Grouping>
-								</GroupingList>
-							</GroupingInfo>
-						</SwitchContainer>
-						<RandomSequenceContainer Name="Air_LP" ID="{1A0F8896-883F-4CD9-86BD-BA0C92799A11}" ShortID="382772762">
-							<PropertyList>
-								<Property Name="OverrideEffect" Type="bool" Value="True"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
-								</Reference>
-								<Reference Name="Effect0">
-									<Custom>
-										<Effect Name="Time Stretch (Custom)" ID="{1ED2BEAD-9B10-445B-B68A-AA8F83799879}" ShortID="499474820" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
-											<ObjectLists>
-												<ObjectList Name="RTPC">
-													<Reference>
-														<Local>
-															<RTPC Name="" ID="{FBF98E86-DDEB-4E85-A448-0293AB020438}" ShortID="51524630">
-																<PropertyList>
-																	<Property Name="PropertyName" Type="string" Value="TimeStretch"/>
-																</PropertyList>
-																<ReferenceList>
-																	<Reference Name="ControlInput">
-																		<ObjectRef Name="Altitude" ID="{CFBFCC66-4D27-41D4-A6AC-E917FAA2FCF4}" WorkUnitID="{A47B99BC-AE2C-4B85-8A52-E4F2FEF9CBC6}"/>
-																	</Reference>
-																	<Reference Name="Curve">
-																		<Custom>
-																			<Curve Name="" ID="{34105FB5-DAC2-4D0C-91BD-51C5E93AB5AC}">
-																				<PropertyList>
-																					<Property Name="Flags" Type="int32" Value="1"/>
-																				</PropertyList>
-																				<PointList>
-																					<Point>
-																						<XPos>0</XPos>
-																						<YPos>100</YPos>
-																						<Flags>5</Flags>
-																					</Point>
-																					<Point>
-																						<XPos>100</XPos>
-																						<YPos>1250</YPos>
-																						<Flags>37</Flags>
-																					</Point>
-																				</PointList>
-																			</Curve>
-																		</Custom>
-																	</Reference>
-																</ReferenceList>
-															</RTPC>
-														</Local>
-													</Reference>
-												</ObjectList>
-											</ObjectLists>
-										</Effect>
-									</Custom>
-								</Reference>
-								<Reference Name="Effect1" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3">
-									<ObjectRef Name="Secret_message" ID="{2F5DE612-1AAD-4A84-8FB4-3E66521C920E}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="BigAirWind_Loop" ID="{0A71AE33-D1B5-49B1-8800-42883124C069}" ShortID="196657284">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="BigAirWind_Loop" ID="{17F39820-14EF-4374-8609-CD00EBD0F518}">
-											<Language>SFX</Language>
-											<AudioFile>Skateboard\Other\BigAirWind_Loop.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="66893504"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="BigAirWind_Loop" ID="{17F39820-14EF-4374-8609-CD00EBD0F518}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-							<ObjectLists>
-								<ObjectList Name="RTPC">
-									<Reference>
-										<Local>
-											<RTPC Name="" ID="{65408C42-0A1E-4104-80F0-449987527454}" ShortID="1273892">
-												<PropertyList>
-													<Property Name="PropertyName" Type="string" Value="Pitch"/>
-												</PropertyList>
-												<ReferenceList>
-													<Reference Name="ControlInput">
-														<ObjectRef Name="Altitude" ID="{CFBFCC66-4D27-41D4-A6AC-E917FAA2FCF4}" WorkUnitID="{A47B99BC-AE2C-4B85-8A52-E4F2FEF9CBC6}"/>
-													</Reference>
-													<Reference Name="Curve">
-														<Custom>
-															<Curve Name="" ID="{9B0A8B39-BEBB-4E5C-8B35-B2BACD77E5E9}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="65537"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>0</XPos>
-																		<YPos>0</YPos>
-																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>100</XPos>
-																		<YPos>1000</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</Custom>
-													</Reference>
-												</ReferenceList>
-											</RTPC>
-										</Local>
-									</Reference>
-								</ObjectList>
-							</ObjectLists>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="SkatePowerslide" ID="{D8F4F04F-CFD0-4619-88E4-92C80CB0DC13}" ShortID="988877543">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="Skateboard_PowerSlide" ID="{769B7C20-91F2-4727-B619-A89E658D5055}" ShortID="221892256">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Skateboard_PowerSlide" ID="{EC832274-3558-4EB8-A89E-4555ABE2CF04}">
-											<Language>SFX</Language>
-											<AudioFile>Skateboard\Other\Skateboard_PowerSlide.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="155088307"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Skateboard_PowerSlide" ID="{EC832274-3558-4EB8-A89E-4555ABE2CF04}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-							<ObjectLists>
-								<ObjectList Name="RTPC">
-									<Reference>
-										<Local>
-											<RTPC Name="" ID="{5236CB15-217A-48E8-891A-222A9D6C09C0}" ShortID="90787895">
-												<PropertyList>
-													<Property Name="PropertyName" Type="string" Value="Pitch"/>
-												</PropertyList>
-												<ReferenceList>
-													<Reference Name="ControlInput">
-														<ObjectRef Name="Hill_Grade" ID="{56EF29D6-F834-4572-B2C3-965E37E9CAD5}" WorkUnitID="{A47B99BC-AE2C-4B85-8A52-E4F2FEF9CBC6}"/>
-													</Reference>
-													<Reference Name="Curve">
-														<Custom>
-															<Curve Name="" ID="{08C8C949-69E6-4A2D-ACAD-27886612BC41}">
-																<PropertyList>
-																	<Property Name="Flags" Type="int32" Value="65537"/>
-																</PropertyList>
-																<PointList>
-																	<Point>
-																		<XPos>-5</XPos>
-																		<YPos>500</YPos>
-																		<Flags>5</Flags>
-																	</Point>
-																	<Point>
-																		<XPos>5</XPos>
-																		<YPos>-200</YPos>
-																		<Flags>37</Flags>
-																	</Point>
-																</PointList>
-															</Curve>
-														</Custom>
-													</Reference>
-												</ReferenceList>
-											</RTPC>
-										</Local>
-									</Reference>
-								</ObjectList>
-							</ObjectLists>
-						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Wheels_In_Air" ID="{D2C895A4-FD78-4D13-9F3D-BD49A3FEEB66}" ShortID="392788487">
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -721,133 +46,6 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Wheels_In_Air" ID="{9119F647-5A28-4618-9755-BEEA5EE3E711}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Land" ID="{093BA1E5-F892-47D1-982E-11C53ED67B99}" ShortID="173291458">
-							<PropertyList>
-								<Property Name="Highpass" Type="int16">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{B85D4935-30C9-41D7-B879-FBE020214905}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="Lowpass" Type="int16">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{17EB7847-4ECB-4505-A20F-BC7A716EBBF0}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="1"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{F1CDD196-4A7A-422D-A602-94C3F9ED4234}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="1"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{408C9B27-A9CE-42F7-AB00-16BF301C4E3E}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="1"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="Skateboard_Land_02" ID="{35CAE6B8-8E6A-4D0D-A11E-47814A3113D5}" ShortID="83758489">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Skateboard_Land_02" ID="{975A0865-54B6-4A32-AB46-40711BE49406}">
-											<Language>SFX</Language>
-											<AudioFile>Skateboard\Land\Skateboard_Land_02.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="498489361"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Skateboard_Land_02" ID="{975A0865-54B6-4A32-AB46-40711BE49406}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Skateboard_Land_01" ID="{EB6CC0A4-09FD-4D37-A13F-D9A4AF4A6B5E}" ShortID="124110864">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Skateboard_Land_01" ID="{E979C6C3-C6C2-47F1-84FB-CE9637CEF9CE}">
-											<Language>SFX</Language>
-											<AudioFile>Skateboard\Land\Skateboard_Land_01.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="988351719"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Skateboard_Land_01" ID="{E979C6C3-C6C2-47F1-84FB-CE9637CEF9CE}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Skateboard_Land_03" ID="{B0C79218-9F21-4305-A8FB-F068B2AC4E23}" ShortID="144663068">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Skateboard_Land_03" ID="{5E7737E3-E3AD-4320-8BF0-78D069B98279}">
-											<Language>SFX</Language>
-											<AudioFile>Skateboard\Land\Skateboard_Land_03.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="366888732"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Skateboard_Land_03" ID="{5E7737E3-E3AD-4320-8BF0-78D069B98279}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -1108,6 +306,872 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Air_LP" ID="{1A0F8896-883F-4CD9-86BD-BA0C92799A11}" ShortID="382772762">
+							<PropertyList>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+								</Reference>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Time Stretch (Custom)" ID="{1ED2BEAD-9B10-445B-B68A-AA8F83799879}" ShortID="499474820" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+											<ObjectLists>
+												<ObjectList Name="RTPC">
+													<Reference>
+														<Local>
+															<RTPC Name="" ID="{FBF98E86-DDEB-4E85-A448-0293AB020438}" ShortID="51524630">
+																<PropertyList>
+																	<Property Name="PropertyName" Type="string" Value="TimeStretch"/>
+																</PropertyList>
+																<ReferenceList>
+																	<Reference Name="ControlInput">
+																		<ObjectRef Name="Altitude" ID="{CFBFCC66-4D27-41D4-A6AC-E917FAA2FCF4}" WorkUnitID="{A47B99BC-AE2C-4B85-8A52-E4F2FEF9CBC6}"/>
+																	</Reference>
+																	<Reference Name="Curve">
+																		<Custom>
+																			<Curve Name="" ID="{34105FB5-DAC2-4D0C-91BD-51C5E93AB5AC}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="1"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>100</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>100</XPos>
+																						<YPos>1250</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</RTPC>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="Effect1" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3">
+									<ObjectRef Name="Secret_message" ID="{2F5DE612-1AAD-4A84-8FB4-3E66521C920E}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="BigAirWind_Loop" ID="{0A71AE33-D1B5-49B1-8800-42883124C069}" ShortID="196657284">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BigAirWind_Loop" ID="{17F39820-14EF-4374-8609-CD00EBD0F518}">
+											<Language>SFX</Language>
+											<AudioFile>Skateboard\Other\BigAirWind_Loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="66893504"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BigAirWind_Loop" ID="{17F39820-14EF-4374-8609-CD00EBD0F518}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{65408C42-0A1E-4104-80F0-449987527454}" ShortID="1273892">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Pitch"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Altitude" ID="{CFBFCC66-4D27-41D4-A6AC-E917FAA2FCF4}" WorkUnitID="{A47B99BC-AE2C-4B85-8A52-E4F2FEF9CBC6}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{9B0A8B39-BEBB-4E5C-8B35-B2BACD77E5E9}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>1000</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<SwitchContainer Name="Ground_Materials" ID="{D9C4C6B7-2602-4244-8857-DF9FE87CB2DE}" ShortID="702632574">
+							<PropertyList>
+								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Pavement" ID="{C4C83F91-1404-4C6C-AE2A-79FD85207921}" WorkUnitID="{402611A8-EC40-4D7E-B611-0E13E7CF73E6}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Surface_Materials" ID="{9BE4E3F9-7F83-4E51-ACD8-9FCACDFFDDF5}" WorkUnitID="{402611A8-EC40-4D7E-B611-0E13E7CF73E6}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SwitchContainer Name="Cobblestone" ID="{8A356793-7673-4D08-9AB8-1EFDFF9BEE05}" ShortID="248808854">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8B3E7D2A-BB49-487C-BB12-7D0AD0BBB5FD}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8DC00F10-24A8-438B-B4FB-CE30FA089C92}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Slow" ID="{480C925B-61D4-40C7-84F9-802F61E4EDFA}" WorkUnitID="{402611A8-EC40-4D7E-B611-0E13E7CF73E6}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Skate_Speed" ID="{AA1E2ABE-FCFB-4CD0-8C1A-9492E6D6C7A5}" WorkUnitID="{402611A8-EC40-4D7E-B611-0E13E7CF73E6}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SB_Ride_Cobble_Lp_Fast" ID="{3A487649-2E59-4E75-B9F9-F3055AD23C06}" ShortID="38531378">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SB_Ride_Cobble_Lp_Fast" ID="{2BE3DDC6-8821-41BA-AA47-1A04AA8360E7}">
+													<Language>SFX</Language>
+													<AudioFile>Skateboard\Other\SB_Ride_Cobble_Lp_Fast.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="845533776"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SB_Ride_Cobble_Lp_Fast" ID="{2BE3DDC6-8821-41BA-AA47-1A04AA8360E7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="SB_Ride_Cobble_Lp_Slow" ID="{6B2385E7-1260-4103-9E6B-5EBF45EDC4E8}" ShortID="531319116">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SB_Ride_Cobble_Lp_Slow" ID="{242E9B5D-BE8F-48A7-9CA7-3B034B05044B}">
+													<Language>SFX</Language>
+													<AudioFile>Skateboard\Other\SB_Ride_Cobble_Lp_Slow.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="647572816"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="SB_Ride_Cobble_Lp_Slow" ID="{242E9B5D-BE8F-48A7-9CA7-3B034B05044B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="SB_Ride_Cobble_Lp_Fast" ID="{3A487649-2E59-4E75-B9F9-F3055AD23C06}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>0.2</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="SB_Ride_Cobble_Lp_Slow" ID="{6B2385E7-1260-4103-9E6B-5EBF45EDC4E8}"/>
+												<PropertyList>
+													<Property Name="ContinuePlay" Type="bool" Value="True"/>
+													<Property Name="FadeInTime" Type="Real64">
+														<ValueList>
+															<Value>0.2</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Slow" ID="{480C925B-61D4-40C7-84F9-802F61E4EDFA}"/>
+												<ItemList>
+													<ItemRef Name="SB_Ride_Cobble_Lp_Slow" ID="{6B2385E7-1260-4103-9E6B-5EBF45EDC4E8}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Fast" ID="{36280896-B96B-4719-B1DE-1E3C00556690}"/>
+												<ItemList>
+													<ItemRef Name="SB_Ride_Cobble_Lp_Fast" ID="{3A487649-2E59-4E75-B9F9-F3055AD23C06}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<BlendContainer Name="Pavement" ID="{A51EAB41-F38E-428E-89E8-E137A40DA57A}" ShortID="144703242">
+									<PropertyList>
+										<Property Name="BlendBehavior" Type="int16" Value="1"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{022E7557-E052-40F6-A41E-37341FAAC1FF}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{89B7A583-E1D9-420D-94A8-3466B6F86BF0}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<BlendContainer Name="Pavement_Fast" ID="{0D159077-8FD9-4D6C-B3B3-F5B11B425FC3}" ShortID="194336206">
+											<PropertyList>
+												<Property Name="BlendBehavior" Type="int16" Value="1"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{1EC05A96-24FB-4EAD-B41E-DE5F1DE22ED4}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="1"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SB_Ride_Pavement_Lp_Fast" ID="{B7DDD5A8-4AA6-4197-A47F-D4625E617DF8}" ShortID="753166956">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{7984E1C5-2836-44C1-95B0-99DF413ADE08}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="1"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SB_Ride_Pavement_Lp_Fast" ID="{2FBF791F-107C-4612-B835-BC32AC8D9C86}">
+															<Language>SFX</Language>
+															<AudioFile>Skateboard\Other\SB_Ride_Pavement_Lp_Fast.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="226057090"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SB_Ride_Pavement_Lp_Fast" ID="{2FBF791F-107C-4612-B835-BC32AC8D9C86}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Skateboard_carve" ID="{F6023432-9EA7-4589-80B2-73418971BAC8}" ShortID="849910384">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{3278A718-B2B6-4E7D-92A5-0414AC1B58BC}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="1"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Skateboard_carve" ID="{A6F7B28F-9B05-41BC-9EDF-C618AB73B617}">
+															<Language>SFX</Language>
+															<AudioFile>Skateboard\Other\Skateboard_carve.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="304972135"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Skateboard_carve" ID="{A6F7B28F-9B05-41BC-9EDF-C618AB73B617}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<BlendTrackList>
+												<BlendTrack Name="Carve_Angle" ID="{201D4226-8A96-4552-B0BB-7E458BD99A88}" ShortID="320507901">
+													<PropertyList>
+														<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="LayerCrossFadeControlInput">
+															<ObjectRef Name="Carve_Angle" ID="{1B810F17-F793-48CE-B942-DB26D0DD30C7}" WorkUnitID="{A47B99BC-AE2C-4B85-8A52-E4F2FEF9CBC6}"/>
+														</Reference>
+													</ReferenceList>
+													<BlendTrackAssocList>
+														<BlendTrackAssoc>
+															<ItemRef Name="SB_Ride_Pavement_Lp_Fast" ID="{B7DDD5A8-4AA6-4197-A47F-D4625E617DF8}"/>
+															<CrossfadingInfo>
+																<LeftEdgePos>0</LeftEdgePos>
+																<LeftFadingMode>Automatic</LeftFadingMode>
+																<RightEdgePos>0.789115506329114</RightEdgePos>
+																<RightFadingMode>Automatic</RightFadingMode>
+															</CrossfadingInfo>
+														</BlendTrackAssoc>
+														<BlendTrackAssoc>
+															<ItemRef Name="Skateboard_carve" ID="{F6023432-9EA7-4589-80B2-73418971BAC8}"/>
+															<CrossfadingInfo>
+																<LeftEdgePos>0.533161392405063</LeftEdgePos>
+																<LeftFadingMode>Automatic</LeftFadingMode>
+																<RightEdgePos>1</RightEdgePos>
+																<RightFadingMode>Automatic</RightFadingMode>
+															</CrossfadingInfo>
+														</BlendTrackAssoc>
+													</BlendTrackAssocList>
+												</BlendTrack>
+											</BlendTrackList>
+										</BlendContainer>
+										<BlendContainer Name="Pavement_Slow" ID="{2202C28E-0260-437B-8B5D-5DD79C5789BA}" ShortID="969013538">
+											<PropertyList>
+												<Property Name="BlendBehavior" Type="int16" Value="1"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{93ABACB8-AF7F-4D39-BF71-5BA6AC610FEA}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="1"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="SB_Ride_Pavement_Lp_Slow" ID="{558D15D2-EA09-4201-91D2-858871390285}" ShortID="171298758">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{B0E1ACDC-FB72-4D23-B6BC-367F35D19879}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="1"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="SB_Ride_Pavement_Lp_Slow" ID="{5457DC6C-2BD4-4A7B-817C-48597BCA379A}">
+															<Language>SFX</Language>
+															<AudioFile>Skateboard\Other\SB_Ride_Pavement_Lp_Slow.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="733409035"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="SB_Ride_Pavement_Lp_Slow" ID="{5457DC6C-2BD4-4A7B-817C-48597BCA379A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Skateboard_carve" ID="{F4F72BA5-4996-40AC-B53E-2E86CD5C51D6}" ShortID="1002291825">
+													<PropertyList>
+														<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{946CE856-F906-491F-88B7-BFAA7C240F31}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="1"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Skateboard_carve" ID="{1B832CCA-FBA1-4CC3-A486-E8BFE180D658}">
+															<Language>SFX</Language>
+															<AudioFile>Skateboard\Other\Skateboard_carve.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="304972135"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Skateboard_carve" ID="{1B832CCA-FBA1-4CC3-A486-E8BFE180D658}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<BlendTrackList>
+												<BlendTrack Name="Carve_Angle" ID="{1A3128AB-E0CA-47E6-B413-7BCE83988365}" ShortID="791470104">
+													<PropertyList>
+														<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="LayerCrossFadeControlInput">
+															<ObjectRef Name="Carve_Angle" ID="{1B810F17-F793-48CE-B942-DB26D0DD30C7}" WorkUnitID="{A47B99BC-AE2C-4B85-8A52-E4F2FEF9CBC6}"/>
+														</Reference>
+													</ReferenceList>
+													<BlendTrackAssocList>
+														<BlendTrackAssoc>
+															<ItemRef Name="SB_Ride_Pavement_Lp_Slow" ID="{558D15D2-EA09-4201-91D2-858871390285}"/>
+															<CrossfadingInfo>
+																<LeftEdgePos>0</LeftEdgePos>
+																<LeftFadingMode>Automatic</LeftFadingMode>
+																<RightEdgePos>0.793233386075949</RightEdgePos>
+																<RightFadingMode>Automatic</RightFadingMode>
+															</CrossfadingInfo>
+														</BlendTrackAssoc>
+														<BlendTrackAssoc>
+															<ItemRef Name="Skateboard_carve" ID="{F4F72BA5-4996-40AC-B53E-2E86CD5C51D6}"/>
+															<CrossfadingInfo>
+																<LeftEdgePos>0.617284018987342</LeftEdgePos>
+																<LeftFadingMode>Automatic</LeftFadingMode>
+																<RightEdgePos>1</RightEdgePos>
+																<RightFadingMode>Automatic</RightFadingMode>
+															</CrossfadingInfo>
+														</BlendTrackAssoc>
+													</BlendTrackAssocList>
+												</BlendTrack>
+											</BlendTrackList>
+										</BlendContainer>
+									</ChildrenList>
+									<BlendTrackList>
+										<BlendTrack Name="Speed" ID="{2BBB2CD9-F34F-4C74-96EE-34C993760ADA}" ShortID="264738169">
+											<PropertyList>
+												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<ObjectRef Name="Skate_Speed" ID="{35204B87-69C0-4F42-BD2B-C5943DE8D027}" WorkUnitID="{A47B99BC-AE2C-4B85-8A52-E4F2FEF9CBC6}"/>
+												</Reference>
+											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="Pavement_Slow" ID="{2202C28E-0260-437B-8B5D-5DD79C5789BA}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>0.664806962025316</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="Pavement_Fast" ID="{0D159077-8FD9-4D6C-B3B3-F5B11B425FC3}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0.529996835443038</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>1</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
+								</BlendContainer>
+								<BlendContainer Name="Rail" ID="{3381FE7B-E1E4-40C8-A914-56C160638647}" ShortID="824487034">
+									<PropertyList>
+										<Property Name="BlendBehavior" Type="int16" Value="1"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8DD083C7-EF9C-4AB8-80B2-64D8CAAB1E6B}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A8C1A658-8CC9-43AE-AF03-1F2FF1F41C8A}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Rail_Grind_Loop_Fast" ID="{E7975894-6109-4755-B7E3-B3F2C9287AF9}" ShortID="186024404">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{C8043144-FB07-42FA-B6DD-1C4A2C91AF93}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="1"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Rail_Grind_Loop_Fast" ID="{69B8B0F7-2AF4-4FDB-AB79-713423B143F3}">
+													<Language>SFX</Language>
+													<AudioFile>Skateboard\Other\Rail_Grind_Loop_Fast.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="865845159"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Rail_Grind_Loop_Fast" ID="{69B8B0F7-2AF4-4FDB-AB79-713423B143F3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Rail_Grind_Loop_Slow" ID="{710F9796-8D0E-401C-B068-0DEB23DC108F}" ShortID="287091531">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{F5C3A3AE-DBD5-434E-A16B-563D6D58D629}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="1"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Rail_Grind_Loop_Slow" ID="{3A59AD31-2AC5-481B-987D-1620A17D8F2A}">
+													<Language>SFX</Language>
+													<AudioFile>Skateboard\Other\Rail_Grind_Loop_Slow.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="996235562"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Rail_Grind_Loop_Slow" ID="{3A59AD31-2AC5-481B-987D-1620A17D8F2A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<BlendTrackList>
+										<BlendTrack Name="Rail" ID="{0930318E-4DD6-4E96-87FC-A51970A559EB}" ShortID="216100901">
+											<PropertyList>
+												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<ObjectRef Name="Skate_Speed" ID="{35204B87-69C0-4F42-BD2B-C5943DE8D027}" WorkUnitID="{A47B99BC-AE2C-4B85-8A52-E4F2FEF9CBC6}"/>
+												</Reference>
+											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="Rail_Grind_Loop_Slow" ID="{710F9796-8D0E-401C-B068-0DEB23DC108F}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>0.712275316455696</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="Rail_Grind_Loop_Fast" ID="{E7975894-6109-4755-B7E3-B3F2C9287AF9}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0.450882911392405</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>1</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
+								</BlendContainer>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{DCE15B24-E75C-43B2-93C1-EF2EBE54D777}" ShortID="167451708">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Pitch"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Hill_Grade" ID="{56EF29D6-F834-4572-B2C3-965E37E9CAD5}" WorkUnitID="{A47B99BC-AE2C-4B85-8A52-E4F2FEF9CBC6}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{8F49ABD7-2317-4D2A-A800-E9F3CBDA47E5}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-5</XPos>
+																		<YPos>500</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>5</XPos>
+																		<YPos>-250</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Pavement" ID="{A51EAB41-F38E-428E-89E8-E137A40DA57A}"/>
+										<PropertyList>
+											<Property Name="ContinuePlay" Type="bool" Value="True"/>
+											<Property Name="FadeInTime" Type="Real64">
+												<ValueList>
+													<Value>0.3</Value>
+												</ValueList>
+											</Property>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>0.5</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Rail" ID="{3381FE7B-E1E4-40C8-A914-56C160638647}"/>
+										<PropertyList>
+											<Property Name="ContinuePlay" Type="bool" Value="True"/>
+										</PropertyList>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Cobblestone" ID="{8A356793-7673-4D08-9AB8-1EFDFF9BEE05}"/>
+										<PropertyList>
+											<Property Name="ContinuePlay" Type="bool" Value="True"/>
+											<Property Name="FadeInTime" Type="Real64">
+												<ValueList>
+													<Value>0.3</Value>
+												</ValueList>
+											</Property>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>0.5</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Cobblestone" ID="{EB2BB614-9337-4F1C-B725-C15EE7F53A84}"/>
+										<ItemList>
+											<ItemRef Name="Cobblestone" ID="{8A356793-7673-4D08-9AB8-1EFDFF9BEE05}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Pavement" ID="{C4C83F91-1404-4C6C-AE2A-79FD85207921}"/>
+										<ItemList>
+											<ItemRef Name="Pavement" ID="{A51EAB41-F38E-428E-89E8-E137A40DA57A}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Rail" ID="{4A37CAEB-2A34-4008-A2F3-25558FA1DD9B}"/>
+										<ItemList>
+											<ItemRef Name="Rail" ID="{3381FE7B-E1E4-40C8-A914-56C160638647}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
 						<RandomSequenceContainer Name="Rail_Off" ID="{CE6D1B75-C23B-4CDB-A962-E6CC1C6F5831}" ShortID="600689110">
 							<PropertyList>
 								<Property Name="Highpass" Type="int16">
@@ -1234,6 +1298,206 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Rail_Off_02" ID="{5A4F3968-0AD6-4D5B-A321-736D0FC302B5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="SkatePowerslide" ID="{D8F4F04F-CFD0-4619-88E4-92C80CB0DC13}" ShortID="988877543">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Skateboard_PowerSlide" ID="{769B7C20-91F2-4727-B619-A89E658D5055}" ShortID="221892256">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skateboard_PowerSlide" ID="{EC832274-3558-4EB8-A89E-4555ABE2CF04}">
+											<Language>SFX</Language>
+											<AudioFile>Skateboard\Other\Skateboard_PowerSlide.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="155088307"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Skateboard_PowerSlide" ID="{EC832274-3558-4EB8-A89E-4555ABE2CF04}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{5236CB15-217A-48E8-891A-222A9D6C09C0}" ShortID="90787895">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Pitch"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Hill_Grade" ID="{56EF29D6-F834-4572-B2C3-965E37E9CAD5}" WorkUnitID="{A47B99BC-AE2C-4B85-8A52-E4F2FEF9CBC6}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{08C8C949-69E6-4A2D-ACAD-27886612BC41}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-5</XPos>
+																		<YPos>500</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>5</XPos>
+																		<YPos>-200</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Land" ID="{093BA1E5-F892-47D1-982E-11C53ED67B99}" ShortID="173291458">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B85D4935-30C9-41D7-B879-FBE020214905}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{17EB7847-4ECB-4505-A20F-BC7A716EBBF0}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{F1CDD196-4A7A-422D-A602-94C3F9ED4234}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{408C9B27-A9CE-42F7-AB00-16BF301C4E3E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Skateboard_Land_02" ID="{35CAE6B8-8E6A-4D0D-A11E-47814A3113D5}" ShortID="83758489">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skateboard_Land_02" ID="{975A0865-54B6-4A32-AB46-40711BE49406}">
+											<Language>SFX</Language>
+											<AudioFile>Skateboard\Land\Skateboard_Land_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="498489361"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Skateboard_Land_02" ID="{975A0865-54B6-4A32-AB46-40711BE49406}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Skateboard_Land_01" ID="{EB6CC0A4-09FD-4D37-A13F-D9A4AF4A6B5E}" ShortID="124110864">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skateboard_Land_01" ID="{E979C6C3-C6C2-47F1-84FB-CE9637CEF9CE}">
+											<Language>SFX</Language>
+											<AudioFile>Skateboard\Land\Skateboard_Land_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="988351719"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Skateboard_Land_01" ID="{E979C6C3-C6C2-47F1-84FB-CE9637CEF9CE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Skateboard_Land_03" ID="{B0C79218-9F21-4305-A8FB-F068B2AC4E23}" ShortID="144663068">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{11CA4AD7-2324-43CD-8854-E068032AEB3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4343F544-17C7-4FC9-AA59-4002F151818B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Skateboard_Land_03" ID="{5E7737E3-E3AD-4320-8BF0-78D069B98279}">
+											<Language>SFX</Language>
+											<AudioFile>Skateboard\Land\Skateboard_Land_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="366888732"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Skateboard_Land_03" ID="{5E7737E3-E3AD-4320-8BF0-78D069B98279}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

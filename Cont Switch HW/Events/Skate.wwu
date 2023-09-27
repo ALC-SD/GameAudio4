@@ -38,6 +38,16 @@
 				</Event>
 				<Event Name="Land" ID="{A1E50124-33D2-457B-A0C7-C31A8F6CA07F}">
 					<ChildrenList>
+						<Action Name="" ID="{ED383A7F-6807-49A7-A9ED-8F4065833494}" ShortID="659148097">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pavement" ID="{C4C83F91-1404-4C6C-AE2A-79FD85207921}" WorkUnitID="{402611A8-EC40-4D7E-B611-0E13E7CF73E6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{2BCD6E97-A95C-4941-B65B-07E5BD50BCCB}" ShortID="282298278">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
@@ -60,16 +70,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{C206BD7F-8897-4E19-A2CE-5DAA1ECE784C}" ShortID="494710143">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="39"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Altitude" ID="{CFBFCC66-4D27-41D4-A6AC-E917FAA2FCF4}" WorkUnitID="{A47B99BC-AE2C-4B85-8A52-E4F2FEF9CBC6}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{7CC12649-F4B6-4D97-8758-F751E6F43EB1}" ShortID="588831060">
 							<ReferenceList>
 								<Reference Name="Target">
@@ -78,9 +78,22 @@
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{0F1391A1-09DB-40D3-9B3E-E41A1645B48A}" ShortID="537010319">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="0.05"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Ground_Materials" ID="{D9C4C6B7-2602-4244-8857-DF9FE87CB2DE}" WorkUnitID="{9013A983-EB7E-4092-8615-D32ADFB5BA7A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C206BD7F-8897-4E19-A2CE-5DAA1ECE784C}" ShortID="494710143">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="39"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Altitude" ID="{CFBFCC66-4D27-41D4-A6AC-E917FAA2FCF4}" WorkUnitID="{A47B99BC-AE2C-4B85-8A52-E4F2FEF9CBC6}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
