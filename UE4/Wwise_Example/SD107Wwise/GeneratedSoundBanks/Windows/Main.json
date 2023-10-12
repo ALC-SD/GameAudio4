@@ -1,0 +1,26 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\sd107antonio\\Desktop\\GA_T4\\Mateus\\UE4\\Wwise_Example\\SD107Wwise\\",
+   "SourceFilesRoot": "C:\\Users\\sd107antonio\\Desktop\\GA_T4\\Mateus\\UE4\\Wwise_Example\\SD107Wwise\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\sd107antonio\\Desktop\\GA_T4\\Mateus\\UE4\\Wwise_Example\\SD107Wwise\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\sd107antonio\\Desktop\\GA_T4\\Mateus\\UE4\\Wwise_Example\\SD107Wwise\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "GUID": "{B8DFFB4C-D0A6-461A-9A8B-59BDD6C666A1}",
+    "Language": "SFX",
+    "Hash": "1077138683",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk"
+   }
+  ]
+ }
+}

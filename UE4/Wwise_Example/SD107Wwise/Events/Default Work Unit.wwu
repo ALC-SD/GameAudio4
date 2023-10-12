@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0EB23B2E-D4E9-4D59-B185-CAAEC8DC4B20}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{0EB23B2E-D4E9-4D59-B185-CAAEC8DC4B20}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="RedNoise" ID="{20B00F22-12F8-4B85-9A19-340337DFDAF7}">
+					<ChildrenList>
+						<Action Name="" ID="{F4DA850B-95B5-47BC-BE82-F7EDC2EFDA65}" ShortID="559802310">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RedNoise" ID="{750AE375-8A2B-41B1-BA9F-5381EF3C195B}" WorkUnitID="{1D0A0A0C-70F9-40D1-ABBA-A4114BEB313A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="WhiteNoise" ID="{83E2FFDE-C4B3-46FD-A36B-E0DE0B7D835C}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
